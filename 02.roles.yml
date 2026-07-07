@@ -1,5 +1,6 @@
 ---
 - name: test
   hosts: all
+  become: true
   roles:
     - demo

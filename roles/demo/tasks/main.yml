@@ -1,6 +1,5 @@
 - name: setting prompt
-  become: true
-  ansible.builtin.shell: set-prompt
+  ansible.builtin.shell: set-prompt frontend
 
 - name: pinging the system 
   ansible.builtin.ping:
